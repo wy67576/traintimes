@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "traintimes"
+version = "0.1.0"
+description = "查火车票·查时刻 — 12306 CLI/SDK for train schedule & ticket availability"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+
+authors = [
+    { name = "wy67576" },
+]
+
+keywords = [
+    "12306", "train", "railway", "china-railway", "cli",
+    "ticket-availability", "schedule",
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+tt = "traintimes.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["traintimes*"]

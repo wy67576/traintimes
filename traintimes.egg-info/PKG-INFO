@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: traintimes
+Version: 0.1.0
+Summary: 查火车票·查时刻 — 12306 CLI/SDK for train schedule & ticket availability
+Author: wy67576
+License-Expression: MIT
+Keywords: 12306,train,railway,china-railway,cli,ticket-availability,schedule
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
